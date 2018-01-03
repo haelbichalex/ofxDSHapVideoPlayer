@@ -955,6 +955,10 @@ class DirectShowHapVideo : public ISampleGrabberCB {
 		return bEndReached;
 	}
 
+	void setMovieDone(bool done) {
+		bEndReached = done;
+	}
+
 	float getWidth(){
 		return width;
 	}
@@ -1246,7 +1250,7 @@ bool ofxDSHapVideoPlayer::load(string path) {
 
     if (err != GL_NO_ERROR){
 
-        printf("error %s\n", gluErrorString(err));
+        //printf("error %s\n", gluErrorString(err));
     }
 
 	 if (!bShaderInitialized){
@@ -1417,7 +1421,7 @@ void ofxDSHapVideoPlayer::writeToTexture(ofTexture &texture) {
 
     if (err != GL_NO_ERROR){
 
-        printf("error %s\n", gluErrorString(err));
+        //printf("error %s\n", gluErrorString(err));
     }
 
     if (!ofIsGLProgrammableRenderer())
@@ -1545,6 +1549,12 @@ float ofxDSHapVideoPlayer::getDuration(){
 
 bool ofxDSHapVideoPlayer::getIsMovieDone(){
 	return ( player && player->isMovieDone() ); 
+}
+
+void ofxDSHapVideoPlayer::setIsMovieDone(bool done) {
+	if (player && player->isLoaded()) {
+		player->setMovieDone(done);
+	}
 }
 	
 void ofxDSHapVideoPlayer::setPaused(bool bPause){

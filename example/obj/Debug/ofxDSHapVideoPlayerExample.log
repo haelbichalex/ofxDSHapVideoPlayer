@@ -1,0 +1,25 @@
+﻿  ofxDSHapVideoPlayer.cpp
+C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(320): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(325): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(969): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(970): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(971): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\libs\openFrameworks\math\ofMatrix4x4.h(972): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+..\..\..\addons\ofxDSHapVideoPlayer\src\ofxDSHapVideoPlayer.cpp(202): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\alex\downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\addons\ofxdshapvideoplayer\src\ofxdshapvideoplayer.cpp(1647): warning C4715: 'ofxDSHapVideoPlayer::getHapType': not all control paths return a value
+     Creating library bin\ofxDSHapVideoPlayerExample_debug.lib and object bin\ofxDSHapVideoPlayerExample_debug.exp
+  ofxDSHapVideoPlayerExample.vcxproj -> C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\addons\ofxDSHapVideoPlayer\example\bin\ofxDSHapVideoPlayerExample_debug.exe
+  ofxDSHapVideoPlayerExample.vcxproj -> bin\ofxDSHapVideoPlayerExample_debug.pdb (Full PDB)
+  
+  	                   9	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\
+  	  *EXTRA Datei		 1266176	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\addons\ofxDSHapVideoPlayer\example\bin\fmodex.dll
+  	  *EXTRA Datei		 1312768	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\addons\ofxDSHapVideoPlayer\example\bin\fmodexL.dll
+  	      Geändert		 4171776	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\assimp.dll
+  	    Neue Datei		 1503232	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\fmodex64.dll
+  	    Neue Datei		 1552384	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\fmodexL64.dll
+  	      Geändert		 6402560	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\FreeImage.dll
+  	         Neuer		  734720	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\freetype.dll
+  	         Neuer		  289792	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\glut32.dll
+  	         Neuer		 2208256	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\libeay32.dll
+  	         Neuer		  458240	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\ssleay32.dll
+  	      Geändert		   81408	C:\Users\Alex\Downloads\of_v0.9.8_vs_release\of_v0.9.8_vs_release\export\vs\x64\Zlib.dll

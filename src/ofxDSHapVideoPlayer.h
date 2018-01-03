@@ -51,6 +51,7 @@ class ofxDSHapVideoPlayer : public ofBaseVideoPlayer {
 		 float 				getSpeed();
 		 float 				getDuration();
 		 bool				getIsMovieDone();
+		 void				setIsMovieDone(bool done);
 	
 		 void 				setPaused(bool bPause);
 		 void 				setPosition(float pct);
